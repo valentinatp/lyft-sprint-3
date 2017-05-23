@@ -6,3 +6,41 @@ Colors:
 #75726C;
 #EDE9E2
 */
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+	background-size: cover;
+	margin: 0;
+}
+
+ul{
+	background: #E54E79;
+	width: 1325px;
+	height: 65px;
+	display: inline-block;
+	margin: 0;
+}
+
+img {
+	position: relative; 
+	margin: 0;
+	left: 200px;
+	top: 12px;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	left: 920px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #EDE9E2;
+	padding: 10px;
+}
+
