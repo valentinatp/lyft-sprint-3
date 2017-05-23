@@ -14,16 +14,18 @@ body {
 	background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
 	background-size: 100%;
 	margin: 0;
+	background-attachment: fixed;
 }
 
 .barra-completa {
+	width: 100%;
 	position: fixed;
 	z-index: 1000;
 }
 
 ul{
 	background: #E54E79;
-	width: 1325px;
+	width: 100%;
 	height: 65px;
 	display: inline-block;
 	margin: 0;
@@ -40,7 +42,6 @@ li {
 	display: inline-block;
 	position: relative;
 	left: 920px;
-
 }
 
 a {
@@ -52,9 +53,9 @@ header{
 	position: absolute;
 	background-color: #EDE9E2;
 	top: 210px; 
-	left: 868px;
-	width: 401px;
-	height: 282px;
+	left: 864px;
+	width: 30%;
+	height: 370px;
 	padding: 40px;
 }
 
@@ -71,36 +72,17 @@ p {
 	font-size: 13px;
 	font-weight: 600;
 }
-.datos {
-  position: relative;
-  background: transparent;
-  width: 80%;
-  border: none;
-  outline: none;
-  padding: 8px 0;
-  font-size: 16px;
-  font-weight: 100;
+
+.phone-number .datos {
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #75726C;
+	width: 90%;
+	color: #75726C;
 }
 
-.phone-number {
-  position: relative;
-}
-
-.phone-number:after, .phone-number:before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #75726C; 
-  bottom: 0;
-  left: 0;
-}
-
-.phone-number::after {
-  background-color: #8E8DBE;
-  transform: scaleX(0);
-}
 
 #insert {
 	border-radius: 20px;
@@ -110,11 +92,66 @@ p {
 	height: 50px;
 }
 
+.playwithlyft {
+	background-color: #00B2A9; 
+	position: relative;
+	top: 900px;
+	height: 600px;
+}
+
+#texto {
+	background-color: #EDE9E2;
+	position: relative;
+	text-align: center;
+	color: #75726C;
+	height: 50px;
+	top: 60px;
+}
+
+.cuadro {
+	background-color: #EDE9E2;
+	position: relative;
+	left: 127px;
+	height: 400px;
+	width: 1030px;
+	margin: 30px;
+	top: 80px;
+}
+
+.cuadro .inputs{
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #75726C;
+}
+
+.fa-car, .inputs {
+	position: relative;
+	left: 160px;
+	font-size: 30px;
+	top: 100px;
+	color: #75726C;
+}
+ 
+
+.comienzo {
+	position: relative;
+	background-color: #00B2A9;
+	left: 250px;
+	border-radius: 10px;
+	width: 60%;
+	height: 50px;
+	bottom: 20px;
+	color: #EDE9E2;
+	font-weight: 700;
+}
+
 footer {
 	background-color: #75726C;
 	position: absolute;
 	margin:0;
-	top: 1300px;
+	top: 1700px;
 	height: 50px;
 	width: 100%;
 }
