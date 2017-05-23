@@ -4,7 +4,7 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
 *{
 	font-family: 'Raleway', sans-serif;
@@ -12,8 +12,13 @@ Colors:
 
 body {
 	background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
-	background-size: cover;
+	background-size: 100%;
 	margin: 0;
+}
+
+.barra-completa {
+	position: fixed;
+	z-index: 1000;
 }
 
 ul{
@@ -43,4 +48,73 @@ a {
 	color: #EDE9E2;
 	padding: 10px;
 }
+header{
+	position: absolute;
+	background-color: #EDE9E2;
+	top: 210px; 
+	left: 868px;
+	width: 401px;
+	height: 282px;
+	padding: 40px;
+}
 
+h1 {
+	color: #00B2A9;
+	margin: 0;
+}
+
+h3 {
+	color: #75726C;
+}
+
+p {
+	font-size: 13px;
+	font-weight: 600;
+}
+.datos {
+  position: relative;
+  background: transparent;
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.phone-number {
+  position: relative;
+}
+
+.phone-number:after, .phone-number:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #75726C; 
+  bottom: 0;
+  left: 0;
+}
+
+.phone-number::after {
+  background-color: #8E8DBE;
+  transform: scaleX(0);
+}
+
+#insert {
+	border-radius: 20px;
+	background-color: #E56385;
+	color: #EDE9E2;
+	width: 200px;
+	height: 50px;
+}
+
+footer {
+	background-color: #75726C;
+	position: absolute;
+	margin:0;
+	top: 1300px;
+	height: 50px;
+	width: 100%;
+}
