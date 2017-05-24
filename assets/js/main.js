@@ -31,13 +31,8 @@ start.addEventListener("click", function(){
 			var nueva = document.createElement("div");
 			nueva.setAttribute("id", "nuevoC");
 
+
 			cuadroC.appendChild(nueva);
 		}
 
 });
-
-
-
-
-
-
