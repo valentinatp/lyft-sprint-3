@@ -96,7 +96,7 @@ p {
 	background-color: #00B2A9; 
 	position: relative;
 	top: 900px;
-	height: 600px;
+	height: 700px;
 }
 
 #texto {
@@ -108,7 +108,7 @@ p {
 	top: 60px;
 }
 
-.cuadro {
+.cuadro, #nuevoC {
 	background-color: #EDE9E2;
 	position: relative;
 	left: 127px;
@@ -133,16 +133,15 @@ p {
 	top: 100px;
 	color: #75726C;
 }
- 
 
 .comienzo {
 	position: relative;
 	background-color: #00B2A9;
-	left: 250px;
+	left: 200px;
 	border-radius: 10px;
 	width: 60%;
 	height: 50px;
-	bottom: 20px;
+	top: 200px;
 	color: #EDE9E2;
 	font-weight: 700;
 }
@@ -155,3 +154,9 @@ footer {
 	height: 50px;
 	width: 100%;
 }
+
+#nuevoC {
+	background-color: #75726C;
+	border: 30px solid #EDE9E2;
+}
+
